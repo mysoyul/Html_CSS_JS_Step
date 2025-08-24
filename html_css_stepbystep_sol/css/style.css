@@ -27,10 +27,6 @@
 	width:750px; 
 }
 
-section {
-	display:block;  /* section 을 블록 콘텐츠로 지정  */
-	margin:15px auto 0; /* 상단 여백 15px, 좌우 여백 자동, 하단 여백 0 */
-}
 nav {
 	width:100%;  /* 메뉴 너비는 부모 요소(section)의 너비와 같게 */
 	height:40px;  /*  메뉴 높이 */
@@ -59,6 +55,7 @@ nav a {
     text-decoration:none;  /* 링크 밑줄 없애기 */
     padding:6px 40px 9px;   /* 메뉴 항목의 패딩 값  */
     text-shadow:0 1px 1px black;     /* 메뉴 텍스트에 그림자 효과 추가  */
+    transition: all 0.3s ease;  /* 이 한 줄만 추가! */
 }
 nav a:hover{          
 	background-color: #ffd800;  /* 배경색 */ 
@@ -84,6 +81,7 @@ footer {
 	background-color:#666;  /* 푸터의 배경색 */
 	color:white; /* 푸터의 글자색 */
 	border:2px solid #222;  /* 푸터의 네방향에 2px 짜리 실선 */
+    border-radius: 4px;  /* 둥근 모서리 추가 */
 }
 h2 {
     margin-left:10px; /* 왼쪽에 마진 두기 */
