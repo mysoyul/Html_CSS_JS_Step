@@ -27,10 +27,6 @@
 	width:750px; 
 }
 
-section {
-	display:block;  /* section 을 블록 콘텐츠로 지정  */
-	margin:15px auto 0; /* 상단 여백 15px, 좌우 여백 자동, 하단 여백 0 */
-}
 nav {
 	width:100%;  /* 메뉴 너비는 부모 요소(section)의 너비와 같게 */
 	height:40px;  /*  메뉴 높이 */
@@ -60,6 +56,7 @@ nav a {
     padding:6px 40px 9px;   /* 메뉴 항목의 패딩 값  */
     text-shadow:0 1px 1px black;     /* 메뉴 텍스트에 그림자 효과 추가  */
 }
+
 nav a:hover{          
 	background-color: #ffd800;  /* 배경색 */ 
 	color: black; /*  글자색 */ 
@@ -67,6 +64,7 @@ nav a:hover{
     border-top-left-radius:5px; /* 윗부분에 둥그런 모서리 처리 */
     border-top-right-radius:5px; /* 윗부분에 둥그런 모서리 처리 */
 }
+
 nav a.current {          
     background-color: white;  /* 배경색 */ 
     color: black;  /*  글자색 */ 
@@ -74,9 +72,11 @@ nav a.current {
     border-top-left-radius:5px; /* 윗부분에 둥그런 모서리 처리 */ 
     border-top-right-radius:5px; /* 윗부분에 둥그런 모서리 처리 */ 
 }	
+
 section {
 	margin:15px auto 0; /* 상단 여백 15px, 좌우 여백 자동, 하단 여백 0 */
 }
+
 footer {
 	margin:0 auto;   /* 푸터를 화면 중앙에 배치 */
 	padding:20px;  /* 상하좌우 패딩 20px */
@@ -85,6 +85,7 @@ footer {
 	color:white; /* 푸터의 글자색 */
 	border:2px solid #222;  /* 푸터의 네방향에 2px 짜리 실선 */
 }
+
 h2 {
     margin-left:10px; /* 왼쪽에 마진 두기 */
     background:url('../images/icon.png') no-repeat left top; /* 배경 이미지  */
